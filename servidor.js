@@ -28,6 +28,6 @@ app.use('/api/proyectos', require('./routes/proyectos'));
 app.use('/api/tareas', require('./routes/tareas'))
 
 
-app.listen(PORT,()=>{
+app.listen(PORT,'0.0.0.0',()=>{
     console.log(`el SERVIDOR esta corriendo  el puerto ${PORT}`)
 } )
